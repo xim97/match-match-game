@@ -1,0 +1,25 @@
+.creating-form {
+    background: yellowgreen;
+    margin: 20px;
+}
+
+.creating-form h5 {
+    font-size: 15px;
+}
+.creating-form ul {
+    padding-bottom: 5px;
+}
+
+.creating-form img {
+    margin: 0px 7px 0px 7px;   
+}
+
+.creating-form-button {
+    margin-top: 100px; 
+    margin-left: 45%; 
+    text-align: center;
+    float: left;   
+    background: red;
+    font-size: 30px;  
+}
+

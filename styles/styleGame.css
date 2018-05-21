@@ -1,0 +1,55 @@
+.game {
+    background: yellowgreen;
+    margin: 20px;
+}
+
+.game label {
+    font-size: 20px;
+    margin-left: 7px;
+    margin-right: 7px;  
+}
+
+.timer {
+    float: right;
+}
+
+.game img {
+    margin: 7px;   
+}
+
+.game button {
+    margin-top: 50px; 
+    margin-left: 45%; 
+    text-align: center;
+    float: left;   
+    background: red;
+    font-size: 30px;  
+}
+
+.game .closed {
+    animation-name: closeSkirt;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.game .showed {
+    animation-name: showCard;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.game .hide{
+    animation-name: hideCard;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.game .hidden {
+    visibility: hidden;
+}

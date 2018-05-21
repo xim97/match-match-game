@@ -1,0 +1,22 @@
+.congratulation {
+    background: yellowgreen;
+    margin: 20px;
+}
+
+.congratulation h2 {    
+    text-align: center;
+}
+
+.congratulation article {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.congratulation button {
+    margin-top: 50px; 
+    margin-left: 45%; 
+    text-align: center;
+    float: left;   
+    background: red;
+    font-size: 30px;  
+}
